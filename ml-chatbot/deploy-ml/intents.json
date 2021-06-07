@@ -1,0 +1,112 @@
+{
+    "intents": [{
+            "tag": "greet",
+            "patterns": ["halo", "hi", "pagi", "siang", "hello", "sore", "malam"],
+            "responses": ["Hey! Aku Macha, siap membantumu!", "Hai! Aku Macha. Ada yang bisa dibantu?"],
+            "context_set": ""
+        },
+        {
+            "tag": "bye",
+            "patterns": ["Bye", "Dada", "Goodbye"],
+            "responses": ["Terima kasih. Semoga harimu menyenangkan!", "Terima kasih sudah chat dengan Macha!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Makasih"],
+            "responses": ["Macha senang bisa membantu :)", "Ah, Macha jadi malu. Iya, sama-sama"]
+        },
+        {
+            "tag": "ask_general",
+            "patterns": ["Apa itu mental illness?", "Apa itu penyakit mental?", "Apa definisi mental illness?"],
+            "responses": [
+                "Penyakit mental adalah kondisi kesehatan yang mengganggu pikiran, emosi, hubungan, dan fungsi sehari-hari seseorang. Mereka terkait dengan kesusahan dan berkurangnya kapasitas untuk terlibat dalam aktivitas sehari-hari. Penting untuk diketahui bahwa penyakit mental adalah kondisi medis yang tidak ada hubungannya dengan karakter, kecerdasan, atau kemauan seseorang. Sama seperti diabetes adalah gangguan pankreas, penyakit mental adalah kondisi medis karena biologi otak.",
+                "Penyakit mental adalah kondisi kesehatan yang mengganggu pikiran, emosi, hubungan, dan fungsi sehari-hari seseorang. Penyakit mental termasuk dalam rangkaian keparahan: beberapa cukup ringan dan hanya mengganggu beberapa aspek kehidupan, seperti fobia tertentu. Sama halnya dengan bagaimana seseorang akan mengobati diabetes dengan obat-obatan dan insulin, penyakit mental dapat diobati dengan kombinasi obat-obatan dan dukungan sosial."
+            ]
+        },
+        {
+            "tag": "ask_cause",
+            "patterns": ["Apa penyebab mental illness", "Kenapa orang bisa kena penyakit mental?"],
+            "responses": ["Penyakit mental biasanya menyerang individu di puncak kehidupan, dengan 75 persen kondisi kesehatan mental berkembang pada usia 24 tahun. Hal ini membuat identifikasi dan pengobatan gangguan mental sangat sulit, karena kepribadian normal dan perubahan perilaku remaja dapat menutupi gejala gangguan kesehatan jiwa. Orang tua dan pengasuh harus menyadari fakta ini, dan memperhatikan perubahan suasana hati, kepribadian, kebiasaan pribadi, dan penarikan sosial anak mereka. Ketika ini terjadi pada anak-anak di bawah 18 tahun, mereka disebut sebagai serious emotional disturbances (SEDs)."]
+        },
+        {
+            "tag": "ask_doctor",
+            "patterns": ["Gimana cara mencari dokter kesehatan mental?", "Gimana cara cari terapis mental illness?", "Bagaimana cara mencari psikolog?"],
+            "responses": ["Cara termudah untuk mencari layanan kesehatan jiwa adalah dengan mengunjungi Puskesmas terdekat. Bagi yang tidak memiliki kartu BPJS, hanya dikenakan biaya administrasi antara Rp5.000,- s/d Rp30.000,- (tergantung lokasi)."]
+        },
+        {
+            "tag": "ask_medicine",
+            "patterns": ["Apakah ada obat untuk mental illness?", "Di mana beli obat untuk mental health?"],
+            "responses": ["Sebaiknya konsultasi terlebih dahulu ke layanan kesehatan jiwa untuk mendapatkan obat."]
+        },
+        {
+            "tag": "ask_macha",
+            "patterns": ["Kamu siapa?", "Siapa kamu?"],
+            "responses": ["Aku Macha, teman yang akan membantumu :)"]
+        },
+        {
+            "tag": "missed",
+            "patterns": ["Jawaban kamu ngaco", "Ah nggak nyambung jawabnya"],
+            "responses": ["Maaf Macha masih terus belajar, semoga pertanyaanmu selanjutnya terjawab ya.."]
+        },
+        {
+            "tag": "ask_help_other_depression",
+            "patterns": ["Seseorang yang saya cintai atau teman telah didiagnosis dengan depresi. Bagaimana saya bisa membantu?"],
+            "responses": ["Anda tidak harus memahami dengan tepat apa yang dialami orang lain, Anda hanya perlu menyadari bahwa itu adalah pengalaman yang sulit. Anda dapat mencoba sesuatu seperti, 'Saya dapat melihat bahwa pengalaman ini atau gejala-gejala ini benar-benar menyakitkan bagi Anda,' atau, 'Saya ikut sedih mendengar bahwa Anda merasa tidak sehat.' Jika Anda sendiri pernah mengalami depresi, Anda dapat mengatakan, 'Saya tahu bagaimana perasaan Anda.' Ingatlah bahwa setiap orang mengalami penyakit seperti depresi secara berbeda, dan empati adalah tentang mengenali dampak penyakitnya, bukan membandingkan gejalanya. Anda tidak harus menjadi ahli, tetapi mempelajari lebih lanjut tentang depresi dapat membantu Anda memahami apa yang sedang terjadi (dan mungkin menghilangkan beberapa mitos yang tidak membantu seputar depresi)."]
+        },
+        {
+            "tag": "ask_suicide",
+            "patterns": ["Aku lagi ngalamin suicidal thoughts", "Aku pengen bunuh diri", "Temenku ada yang ingin bunuh diri", "Saya memiliki pikiran untuk bunuh diri, atau seseorang yang saya sayangi membahas tentang bunuh diri. Apa yang harus saya lakukan?"],
+            "responses": ["Pikiran untuk bunuh diri tidak berarti bahwa seseorang akan mengakhiri hidupnya, tetapi itu adalah tanda bahwa mereka membutuhkan bantuan atau dukungan ekstra. Jika Anda memiliki pikiran untuk bunuh diri, penting untuk berbicara dengan dokter atau penyedia layanan kesehatan mental Anda. Jika Anda mendukung orang lain, dorong mereka untuk mencari bantuan. Mengatasi Pikiran Bunuh Diri adalah sumber yang bagus untuk membantu Anda memahami dan mengelola perasaan yang sulit. Telepon Direktorat Bina Pelayanan Kesehatan Jiwa Kementerian Kesehatan Republik Indonesia: 500-454"]
+        },
+        {
+            "tag": "ask_free_counseling",
+            "patterns": ["Di mana saya dapat menemukan konseling gratis atau berbiaya rendah?", "Di mana bisa cari konseling murah atau gratis?"],
+            "responses": ["Bagi penerima layanan BPJS, disarankan untuk mencari layanan dari Puskesmas terdekat terlebih dahulu sekalipun Puskesmas tidak memiliki layanan kesehatan jiwa, karena pasien penerima layanan kesehatan jiwa dari BPJS membutuhkan rujukan dari Puskesmas sebelum dapat dirujuk ke rumah sakit. Jika Anda tidak berniat menggunakan layanan BPJS, Anda bisa langsung ke rumah sakit terdekat. Kamu juga bisa ikut layanan konseling sebaya seperti di www.ibunda.id"]
+        },
+        {
+            "tag": "ask_self_harm",
+            "patterns": ["Saya berpikir untuk melukai diri sendiri atau self harm"],
+            "responses": ["Ketika kamu merasa cemas, marah, atau kecewa, lakukanlah hal-hal yang kamu suka atau cobalah untuk berpikir mengenai hal lain yang dapat menjadi distraksi atau cara pengganti agar kamu berhenti melukai diri sendiri. Cobalah hal-hal berikut: Menghubungi teman, Mencatat perasaan kamu dalam satu buku harian, Mendengarkan musik, menggambar, atau membaca, Berjalan santai atau berlari, berdansa, berolahraga atau beraktivitas fisik, Menghitung mundur dan perlahan-lahan dari 10 ke 1, Bernapas perlahan-lahan, menarik napas melalui hidung dan melepaskan melalui mulut, Berfokus pada benda-benda di sekitarmu dan pikirkan bagaimana bentuk, suara, wangi, atau rasanya"]
+        },
+        {
+            "tag": "ask_counseling_price",
+            "patterns": ["Berapa harga layanan konseling online?"],
+            "responses": ["Harga layanan konsultasi online dapat berbeda-beda, umumnya mulai dari Rp100.000,- per sesi. Silakan tanyakan mengenai harga masing-masing penyedia layanan."]
+        },
+        {
+            "tag": "ask_online_counseling",
+            "patterns": ["Minta daftar atau info penyedia layanan konseling kesehatan mental secara online dong?", "Minta info atau informasi konseling online dong?"],
+            "responses": ["Berikut ini beberapa aplikasi atau situs yang menyediakan layanan konseling profesional kesehatan jiwa secara online: Getbetter.id, Riliv, Kalm, Klee, Kariib"]
+        },
+        {
+            "tag": "ask_suicide_sign",
+            "patterns": ["Apa tanda orang yang pengen bunuh diri?", "Apa ciri orang yang ingin bunuh diri atau suicide?"],
+            "responses": ["Beberapa tanda-tandanya adalah : Membicarakan keinginan bunuh diri, Membenci dan menghujat diri sendiri, Mencari cara mematikan untuk bunuh diri, Mengatur segala hal untuk ditinggalkan, Mengucapkan perpisahan, Menarik diri dari orang lain, Perilaku merusak diri sendiri, Perubahan fisik dan mood yang drastis. Jika orang terdekat kamu menunjukkan salah satu atau beberapa tanda-tanda peringatan bunuh diri di atas, jangan ragu untuk tanyakan dan tawarkan bantuan. Tunjukkan bahwa kamu khawatir dan peduli dengan kondisi mereka, dan ajaklah mereka untuk membicarakan dengan baik-baik."]
+        },
+        {
+            "tag": "ask_suicide_online",
+            "patterns": ["Bagaimana jika saya menemukan orang yang ingin bunuh diri di internet?"],
+            "responses": ["Jika kamu bisa menjangkau mereka, jangan ragu untuk menghubungi mereka melalui balasan di status/cuitan mereka atau pesan pribadi. Tawarkan bantuan semampumu dan berikan tautan menuju informasi pertolongan pertama. Carilah orang-orang yang mereka kenal dekat atau dapat menjangkau lebih dekat, dan ajak mereka untuk melakukan pendekatan dengan orang tersebut. Cara lain yang dapat kamu lakukan adalah dengan fitur lapor di media sosial, terutama jika mereka menunjukkan bahwa mereka melukai diri sendiri atau menunjukkan alat/cara untuk bunuh diri. Kebanyakan media sosial akan memproses laporan dengan memberikan daftar kontak atau tautan yang mereka bisa akses sebagai pertolongan pertama. Harap dicatat bahwa apapun bantuan atau upaya yang kamu kerahkan, kamu tidak dapat bertanggung jawab atas tindakan dan perilaku orang lain."]
+        },
+        {
+            "tag": "ask_refuse_our_help",
+            "patterns": ["Bagaimana jika teman menolak bantuan saya?"],
+            "responses": ["Hargailah keputusan mereka. Kamu bisa mengatakan 'Tidak apa-apa, tetapi jika kamu suatu saat membutuhkan bantuan, kamu bisa menghubungi aku kembali atau siapa saja yang kamu percaya.'"]
+        },
+        {
+            "tag": "ask_suicide_survivor",
+            "patterns": ["Saya Berduka dan sedih karena Kehilangan Orang Terkasih atau teman yang Bunuh Diri"],
+            "responses": ["Merupakan hal yang sangat wajar untuk memberikan waktu bagi dirimu sendiri dan “meninggalkan” sementara rasa sakit yang dirimu rasakan dengan melakukan sesuatu yang kamu sukai, meskipun kamu merasa sedang tidak ingin melakukannya pada saat itu. Temukan hal-hal yang bisa membuatmu terdistraksi agar dapat memberikan waktu sejenak untuk keluar dari rasa sakit. Apabila kamu masih membutuhkan waktu sendiri, kamu berhak untuk menyeleksi atau memilih siapa saja yang ingin kamu ajak bicara dan siapa yang tidak. Buat jurnal untuk mencatat pikiran dan perasaanmu. Teruslah terhubung dengan orang lain. Temukan support group bagi penyintas kehilangan bunuh diri."]
+        },
+        {
+            "tag": "ask_back_stronger",
+            "patterns": ["Bagaimana cara saya untuk dapat pulih dari kedukaan yang saya alami?", "Gimana biar ga sedih lagi?"],
+            "responses": ["Penting bagi diri kita untuk tidak memasang harapan yang terlalu tinggi atau bahkan memaksa diri kita sendiri untuk merasa lebih baik pada tahapan-tahapan awal dari kedukaan. Beberapa hal yang perlu kamu ingat: Tidak ada cara yang benar maupun salah di dalam menjalani proses kedukaan kita. Tidak ada suatu “batasan” atau “jangka waktu” yang pasti mengenai proses kedukaan itu sendiri – biarkanlah proses yang kita rasakan mengalir saja. Berikanlah dirimu dan orang lain waktu dan kesempatan untuk berduka. Jangan takut untuk meminta bantuan kalau kamu merasa dirimu tidak dapat menghadapi proses berduka ini dengan baik."]
+        },
+        {
+            "tag": "ask_feel_worthless",
+            "patterns": ["Aku ngerasa nggak berharga", "Aku ngerasa ga ada gunanya hidup di dunia", "Aku ga punya alasan hidup lagi"],
+            "responses": ["Perasaan yang buruk adalah bagian dari hidup. Terkadang, mereka adalah motivasi untuk melepaskan diri kita dari situasi dan hubungan yang lebih merugikan. Perasaan buruk memang terasa mengerikan. Perasaan tidak berharga mungkin baik dalam arti memotivasi untuk mengetahui bahwa kamu jauh lebih baik daripada perasaan kamu hari ini. Jika semua orang berpikir Anda tidak berharga, maka mungkin kamu bisa mencoba untuk mencari orang baru untuk bergaul. Kamu bisa berputar-putar mencoba memahami mengapa kamu tidak berharga, lalu kembali ke lingkungan pertemanan awalmu dan mulai lagi."]
+        }
+    ]
+}
